@@ -1,0 +1,78 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.canvas-container {
+	top: 100px;
+	left: 100px;
+	border: 1px solid black;
+}
+
+.pin-container ul {
+	background-color: #FFFFFF;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    position: absolute;
+    z-index: 1;
+}
+
+.pin-container ul li {
+	float: left;
+	padding: 2px;
+}
+
+li a {
+	border-radius: 20px;
+    display: block;
+    padding: 3px;
+    cursor: pointer; 
+    text-align: center;
+    width: 20px;
+}
+
+.cross {
+	border: 1px solid blue;
+	color: blue;
+}
+
+.exclamation {
+	border: 1px solid orange;
+	color: orange;
+}
+
+.question {
+	border: 1px solid red;
+	color: red;
+}
+
+.display-none {
+	display: none;
+}
+
+.edit-marker {
+	background-color: #ffffff;
+	border: 3px solid;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 3px;
+    position: absolute;
+    text-align: center;
+    width: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#editor-wrapper {
+	float: left;
+	width: 50%;
+}
+
+#revisionHistory {
+	float: left;
+    padding: 20px;
+    width: 40%;
+}
